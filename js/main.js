@@ -3,11 +3,11 @@ arr.splice(2, 1);
 console.log(arr);
 
 //2-misol
-function reverseString(str) {
-  let splittedString = str.split(""); //bo'lib
-  let reverseArray = splittedString.reverse(); //teskari qilib
-  var joinArray = reverseArray.join(""); //birlashtirib
-  return joinArray; //qaytar
+function reverseString(suz) {
+  let bolingan = suz.split(""); //bo'lib
+  let reversed = bolingan.reverse(); //teskari qilib
+  var ulangan = reversed.join(""); //birlashtirib
+  return ulangan; //qaytar
 }
 
 console.log(reverseString("saloom alekum"));
